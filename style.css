@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    border: 0;
+}
+
+.container {
+    background-color: #f9f0f0;
+    border: 0;
+    padding: 1rem;
+}
+
+.container__section{
+    background-color: aqua;
+    border-radius: .5rem;
+    padding: 1rem;
+}
+.container__section__card{
+    background-color: #eceba6;
+    border-radius: .5rem;
+    padding: .5rem;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1.25rem;
+}
+
+.container__section__card--end{
+    margin-bottom: 0;
+}
+
+.card__input{
+    pointer-events: none;
+}
+.card__text{
+    pointer-events: none;
+}
