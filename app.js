@@ -1,16 +1,14 @@
-
-
 const cardtasklist = [
-    "1",
-    "2",
-    "3",
-    "4",
-    "5",
-    "6",
     "Create new project",
-    "8",
-    "9",
-    "10"
+    "Working call",
+    "Meet with the doctor",
+    "Go to the shop",
+    "Take the kids to the school",
+    "Walk with the dog",
+    "Go to the gym",
+    "Study JavaScript",
+    "Go to classes",
+    "Vist my parents"
 ]
 
 const cardchecklist = [
@@ -42,17 +40,16 @@ for (let index = 0; index < 10; index++) {
 
 function changeColor(elemnent) {
     const target = elemnent.target
-    // console.log (target.)
     const input = target.querySelector("input")
     let checked = input.checked;
     console.log(checked)
     if (checked == false) {
         input.checked = true
-        target.style.backgroundColor = "red";
+        target.style.backgroundColor = "#C1D6F8";
     }
     else {
         input.checked = false
-        target.style.backgroundColor = "green";
+        target.style.backgroundColor = "#ffffff";
     }
 }
 
@@ -60,5 +57,7 @@ for (let index = 0; index < 10; index++) {
     const card = document.getElementById(`card-${index}`);
     card.addEventListener("click", changeColor);
 }
+
+
 
 
