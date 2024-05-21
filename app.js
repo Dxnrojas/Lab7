@@ -1,19 +1,6 @@
 // Crear una variable donde voy a guardar los todos que estan guardados en el localstorage
 const cardtasklist = JSON.parse(window.localStorage.getItem("todos")) || []
 
-// const cardchecklist = [
-//     false,
-//     false,
-//     false,
-//     false,
-//     false,
-//     false,
-//     false,
-//     false,
-//     false,
-//     false,
-// ]
-
 const formSection = document.getElementById("form");
 
 //Pintar los todos
